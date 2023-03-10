@@ -6,13 +6,13 @@ AI-driven skills and analytics learning platforms for the world's largest organi
 
 <p>&nbsp;</p>
 
-<p>
+<div style="display=block; width: 20%"><p>
     <a href="https://aws.amazon.com/marketplace/seller-profile?id=824b8600-b332-417d-b259-550630b627d8"><picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://d3sts0r8miqkf0.cloudfront.net/asset/img/awsmplogo3.svg">
       <source media="(prefers-color-scheme: light)" srcset="https://paubox.com/wp-content/uploads/2022/08/AWS-logo.png">
       <img style="width: 20%" alt="Shows a black logo in light color mode and a white one in dark color mode." src="">
     </picture></a>
-</p>
+</p></div>
 
 | Product | Description |
 | -------- | -------- |
