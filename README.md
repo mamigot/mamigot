@@ -6,7 +6,7 @@ AI-driven skills and analytics learning platforms for the world's largest organi
 
 <p>&nbsp;</p>
 
-<img style="width: 20%" src="https://paubox.com/wp-content/uploads/2022/08/AWS-logo.png" href="https://aws.amazon.com/marketplace/seller-profile?id=824b8600-b332-417d-b259-550630b627d8">
+[<img style="width: 20%" src="https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2023/02/16/aws_bp_primarylogo_01.png" href="https://aws.amazon.com/marketplace/seller-profile?id=824b8600-b332-417d-b259-550630b627d8">](https://aws.amazon.com/marketplace/seller-profile?id=824b8600-b332-417d-b259-550630b627d8)
 
 | Product | Description |
 | -------- | -------- |
@@ -18,7 +18,7 @@ Find our [ibl-edx-ce](https://gallery.ecr.aws/ibleducation/ibl-edx-ce), [ibl-web
 
 <p>&nbsp;</p>
 
-<img style="width: 20%" src="https://global.discourse-cdn.com/business7/uploads/openedx/original/2X/2/2a79d562b3cd0029404d770e12ccd04716c720a9.png" href="https://openedx.org/marketplace/ibl-education">
+[<img style="width: 20%" src="https://global.discourse-cdn.com/business7/uploads/openedx/original/2X/2/2a79d562b3cd0029404d770e12ccd04716c720a9.png" href="https://openedx.org/marketplace/ibl-education">](https://openedx.org/marketplace/ibl-education)
 
 | Feature | Description |
 | -------- | -------- |
