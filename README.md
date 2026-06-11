@@ -4,7 +4,7 @@
 
 A full-fledged AI operating system to create unlimited agents, autonomous initiatives and applications — supported by our AI transformation team. LLM-agnostic agents for tutoring, advising, content creation, and operations. Works with OpenAI, Google Gemini, open models like LLaMA, and more.
 
-**[Get Started Free](https://mentorai.iblai.app/)** · **[Deploy in Your Servers](https://github.com/iblai/iblai-infra-cli)**
+**[Get Started Free](https://os.ibl.ai/)** · **[Deploy in Your Servers](https://github.com/iblai/iblai-infra-cli)**
 
 **1.6M+ Users** · **400+ Organizations** · **85% Lower Cost at Scale** · **Zero Vendor Lock-in**
 
@@ -41,16 +41,16 @@ Trusted by Google, Syracuse University, Microsoft, NVIDIA, Kaplan, SUNY, Morehou
 
 <table>
 <tr>
-<td><strong><a href="https://ibl.ai/product/agentic-os">Agentic OS</a></strong><br/>Ownable AI operating system with student, instructor, and administrator interfaces.</td>
-<td><strong><a href="https://ibl.ai/product/mentorai">MentorAI</a></strong><br/>Mentor and copilot for learners, instructors, and managers.</td>
+<td><strong><a href="https://ibl.ai/product/agentic-os">Agentic OS</a></strong><br/>The flagship AI operating system every other product runs on — unified institutional data via MCP, per-learner memory, and model-agnostic LLM routing.</td>
+<td><strong><a href="https://ibl.ai/product/agentic-vibe">Agentic Vibe</a></strong><br/>Open-source developer toolkit to build and ship AI-powered apps on ibl.ai — backend included.</td>
 </tr>
 <tr>
 <td><strong><a href="https://ibl.ai/product/agentic-lms">Agentic LMS</a></strong><br/>AI-powered LMS: authoring, delivery, and analytics in one.</td>
-<td><strong><a href="https://ibl.ai/product/agentic-video">Agentic Video</a></strong><br/>AI-powered video generation and editing for educational content.</td>
+<td><strong><a href="https://ibl.ai/product/agentic-course">Agentic Course</a></strong><br/>AI-assisted design of accredited, accessible courses for any LMS.</td>
 </tr>
 <tr>
-<td><strong><a href="https://ibl.ai/product/agentic-content">Agentic Content</a></strong><br/>Design accredited, accessible courses for any LMS.</td>
-<td><strong><a href="https://ibl.ai/product/agentic-credential">Agentic Credentials</a></strong><br/>Issue, verify, and manage portable digital credentials.</td>
+<td><strong><a href="https://ibl.ai/product/agentic-video">Agentic Video</a></strong><br/>AI-powered video generation and editing for educational content.</td>
+<td><strong><a href="https://ibl.ai/product/agentic-wallet">Agentic Wallet</a></strong><br/>Issue, verify, and manage portable, verifiable digital credentials.</td>
 </tr>
 </table>
 
@@ -62,7 +62,7 @@ Integrates with Canvas, D2L Brightspace, Blackboard, and Moodle.
 
 #### [`vibe`](https://github.com/iblai/vibe) — Vibe
 
-Developer toolkit for vibe coding AI-powered apps with the ibl.ai platform. Production-ready scaffold with authentication, AI chat, profiles, analytics, and Claude Code skills — backend included via iblai.app. Ships to web, desktop, and mobile.
+Developer toolkit for vibe coding AI apps on the ibl.ai platform. Scaffold a production-ready Next.js app with the `iblai-app-cli` and the `@iblai/iblai-js` SDK: SSO auth, AI chat, profiles, notifications, and analytics wired up out of the box. Pre-built components, Claude Code skills, and a hosted backend at iblai.app. Deploy in minutes.
 
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
@@ -70,28 +70,41 @@ Developer toolkit for vibe coding AI-powered apps with the ibl.ai platform. Prod
 ![Claude Code](https://img.shields.io/badge/Claude_Code-CC785C?style=flat-square)
 ![License: MIT](https://img.shields.io/badge/License-MIT-22C55E?style=flat-square)
 
-#### [`iblai-infra-cli`](https://github.com/iblai/iblai-infra-cli) — Infrastructure CLI
+#### [`iblai-mcp`](https://github.com/iblai/iblai-mcp) — MCP Servers
 
-Interactive CLI for provisioning and configuring the ibl.ai platform on AWS. Handles end-to-end infrastructure creation with Terraform and full application setup with Ansible. Can also bootstrap existing servers (any cloud or bare metal) without Terraform.
+Model Context Protocol servers for ibl.ai — analytics, agent creation, agent chat, search, user management, and Canvas LMS integration. Connect any MCP-compatible AI client to the ibl.ai platform.
 
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white)
-![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white)
-![Python 3.11+](https://img.shields.io/badge/Python_3.11+-3776AB?style=flat-square&logo=python&logoColor=white)
-![License: MIT](https://img.shields.io/badge/License-MIT-22C55E?style=flat-square)
-
-#### [`iblai-app-cli`](https://github.com/iblai/iblai-app-cli) — App Scaffolding CLI
-
-Interactive CLI for scaffolding ibl.ai frontend applications. Generates production-ready Next.js apps with chat interfaces, authentication, and full integration with the ibl.ai platform SDK. Supports AI-assisted customization via Anthropic or OpenAI.
-
-![Next.js 15](https://img.shields.io/badge/Next.js_15-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![React 19](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black)
+![MCP](https://img.shields.io/badge/Model_Context_Protocol-0057FF?style=flat-square)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![License: MIT](https://img.shields.io/badge/License-MIT-22C55E?style=flat-square)
 
-#### [`iblai-claw-setup`](https://github.com/iblai/iblai-claw-setup) — Claw Setup
+#### [`standard`](https://github.com/iblai/standard) — Agent Standard
 
-Connect self-hosted claw servers (OpenClaw, NVIDIA NemoClaw) to the ibl.ai platform. Run your own AI agent infrastructure and manage it through ibl.ai's APIs and applications.
+The `.iblai` agent file format — a portable Markdown spec for defining AI agents. Includes an interactive CLI wizard and a library of example agents you can deploy on the ibl.ai platform or anywhere else.
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Open Standard](https://img.shields.io/badge/Open_Standard-6B21A8?style=flat-square)
+![License: MIT](https://img.shields.io/badge/License-MIT-22C55E?style=flat-square)
+
+#### [`iblai-openclaw-router`](https://github.com/iblai/iblai-openclaw-router) — Model Router
+
+Route every request to the cheapest model that can handle it and save 70%+. A drop-in LLM router that keeps quality high while cutting inference cost across providers.
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![LLM Routing](https://img.shields.io/badge/LLM_Routing-6B21A8?style=flat-square)
+![License: MIT](https://img.shields.io/badge/License-MIT-22C55E?style=flat-square)
+
+#### [`claws`](https://github.com/iblai/claws) — Sector Claws
+
+Ready-to-go claws (NVIDIA NemoClaw + OpenClaw) across multiple sectors — higher education, K-12, enterprise, government, legal, financial services, and healthcare. Run on your ibl.ai instance or anywhere else.
+
+![NemoClaw](https://img.shields.io/badge/NemoClaw-76B900?style=flat-square&logo=nvidia&logoColor=white)
+![OpenClaw](https://img.shields.io/badge/OpenClaw-0057FF?style=flat-square)
+![License: MIT](https://img.shields.io/badge/License-MIT-22C55E?style=flat-square)
+
+#### [`claws-setup`](https://github.com/iblai/claws-setup) — Claws Setup
+
+Connect self-hosted OpenClaw and NemoClaw servers to the ibl.ai platform — server setup, Caddy TLS, and full API integration guides. Run your own AI agent infrastructure and manage it through ibl.ai's APIs and applications.
 
 ![OpenClaw](https://img.shields.io/badge/OpenClaw-0057FF?style=flat-square)
 ![NemoClaw](https://img.shields.io/badge/NemoClaw-76B900?style=flat-square&logo=nvidia&logoColor=white)
@@ -125,4 +138,4 @@ Drop-in [OpenClaw](https://github.com/iblai/iblai-claw-setup) / [NemoClaw](https
 
 ---
 
-<sub>**[Get Started Free](https://mentorai.iblai.app/)** · **[Contact Us](https://ibl.ai/contact)** · **[Case Studies](https://ibl.ai/casestudies)** · **[Blog](https://ibl.ai/blog)** · **[Pricing](https://ibl.ai/pricing)**</sub>
+<sub>**[Get Started Free](https://os.ibl.ai/)** · **[Contact Us](https://ibl.ai/contact)** · **[Case Studies](https://ibl.ai/casestudies)** · **[Blog](https://ibl.ai/blog)** · **[Pricing](https://ibl.ai/pricing)**</sub>
